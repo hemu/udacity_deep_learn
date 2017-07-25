@@ -1,0 +1,6 @@
+To use FloydHub, which is a cloud service aimed at running gpu intensive python jobs:
+https://classroom.udacity.com/nanodegrees/nd101/parts/f6d74d04-6d65-424a-9f3a-d58f4da7d406/modules/43289903-8d8b-49fb-9a19-5baa4aabc2d7/lessons/29df00d8-01c2-4995-92fa-a4afd020be90/concepts/f16d0864-7caa-4b59-bc29-5fd24be7de4e
+
+floyd login
+floyd init project_name
+floyd run --gpu --mode jupyter --env tensorflow-1.1 --data R5KrjnANiKVhLWAkpXhNBe
